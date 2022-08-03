@@ -14,5 +14,13 @@ body {
 .av-bg-full-img {
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
+    min-height: 600px;
+    background-position: 50%;
+}
 
+.av-bg-full-img-ItTakes {
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    min-height: 600px;
+    background-position: 50%;
 }
