@@ -24,3 +24,11 @@ body {
     min-height: 600px;
     background-position: 50%;
 }
+
+.av-bg-color-grey {
+    background-color: #1f1f1f;
+}
+
+.av-bg-color-lightgrey {
+    background-color: #bebcbb;
+}
