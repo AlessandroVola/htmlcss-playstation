@@ -9,3 +9,10 @@ body {
 .navbar .navbar-nav li a {
     color: black;
 }
+
+
+.av-bg-full-img {
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+
+}
