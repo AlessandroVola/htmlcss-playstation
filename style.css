@@ -17,7 +17,7 @@ body {
 .av-bg-full-img {
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
-    min-height: 500px;
+    min-height: 600px;
     background-position: 50%;
 }
 
@@ -36,6 +36,10 @@ body {
     background-color: #bebcbb;
 }
 
+.av-bg-color-darkblue {
+    background-color: #161c3b;
+}
+
 /* navbar */
 .navbar .navbar-nav li a {
     color: black;
@@ -47,5 +51,38 @@ body {
 }
 
 .jumbotron-content {
-    margin-top: 15rem;
+    margin-top: 14rem;
+}
+
+.jumbotron-content>* {
+    margin: 1rem 0;
+}
+
+/* itTakesTwo */
+#itTakesTwo img {
+    width: 50%;
+}
+
+/* playstation plus */
+#playstationPlus .ps-plus {
+    width: 40%;
+}
+
+
+#playstationPlus-content {
+    padding-top: 5%;
+}
+
+/* sconti */
+.sconti-content>* {
+    padding: 1rem 0;
+}
+
+/* playstation now */
+.ps-now {
+    width: 40%;
+}
+
+#playstation-now-content {
+    padding-top: 5%;
 }
