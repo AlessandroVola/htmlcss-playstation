@@ -40,6 +40,10 @@ body {
     background-color: #161c3b;
 }
 
+.av-bg-color-blue {
+    background-color: #00439c;
+}
+
 /* navbar */
 .navbar .navbar-nav li a {
     color: black;
@@ -85,4 +89,14 @@ body {
 
 #playstation-now-content {
     padding-top: 10rem;
+}
+
+/* footer */
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer img {
+    width: 30%;
 }
