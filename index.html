@@ -18,7 +18,8 @@
 <body>
     <!-- header -->
     <header>
-        <div class="">
+        <div class="fixed-top">
+            <!-- logo-sony-header -->
             <div class="container-fluid av_bg-color-black">
                 <div class="row justify-content-end">
                     <div class="col-1 py-3">
@@ -26,7 +27,8 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <!-- navbar -->
+            <div class="container-fluid bg-light">
                 <nav class="navbar navbar-expand-lg bg-light">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
@@ -37,15 +39,15 @@
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <!-- giochi -->
-                                <li class="nav-item dropdown">
+                                <li class="nav-item">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         Giochi
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu justify-content-center">
                                         <li><a class="dropdown-item" href="#">Action</a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -112,6 +114,32 @@
                                     </ul>
                                 </li>
                             </ul>
+                            <ul class="navbar-nav">
+                                <!-- my playstation -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        My Playstation
+                                    </a>
+                                    <ul class="dropdown-menu rounded-0">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <!-- Accedi -->
+                                <li class="nav-item">
+                                    <a class="nav-link btn btn-primary" href="#" aria-expanded="false">
+                                        Accedi
+                                    </a>
+                                </li>
+                                <!-- search -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" aria-expanded="false">
+                                        <i class="bi bi-search"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </nav>
@@ -120,13 +148,14 @@
     </header>
     <!-- main -->
     <main>
-        <!-- returnal -->
-        <section>
+        <!-- returnal-jumbo -->
+        <section id="jumbotron">
             <div class="container-fluid av-bg-full-img text-white">
                 <div class="container-xxl">
-                    <div class="row d-flex align-items-end">
-                        <div class="col-4 flex-column">
-                            <h2>Rompi il Cerchio</h2>
+                    <div class="row">
+                        <div class="col-12 col-lg-5 jumbotron-content">
+                            <img class="img-fluid w-50" src="img/returnal-hero-banner-logo.png" alt="">
+                            <h1>Rompi il Cerchio</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis officiis id!
                                 Dolores
                                 nisi,
@@ -134,30 +163,30 @@
                                 blanditiis
                                 corporis commodi soluta.
                             </p>
-                            <a class="" href="">Acquista ora</a>
+                            <button class="rounded"><a class="" href="">Acquista ora</a></button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container-xl py-4">
                 <div class="row gx-3 gy-3">
-                    <div class="col-lg-2 col-md-4 col-sm-6">
-                        <img class="img-fluid rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <div class="col-xxl-2 col-md-4 col-sm-4 col-6">
+                        <img class="img-fluid rounded-4" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                     </div>
-                    <div class="col-xxl-2 col-md-4 col-sm-6">
-                        <img class="img-fluid rounded" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    <div class="col-xxl-2 col-md-4 col-sm-4 col-6">
+                        <img class="img-fluid rounded-4" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                     </div>
-                    <div class="col-xxl-2 col-md-4 col-sm-6">
-                        <img class="img-fluid rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <div class="col-xxl-2 col-md-4 col-sm-4 col-6">
+                        <img class="img-fluid rounded-4" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                     </div>
-                    <div class="col-xxl-2 col-md-4 col-sm-6">
-                        <img class="img-fluid rounded" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    <div class="col-xxl-2 col-md-4 col-sm-4 col-6">
+                        <img class="img-fluid rounded-4" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                     </div>
-                    <div class="col-xxl-2 col-md-4 col-sm-6">
-                        <img class="img-fluid rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <div class="col-xxl-2 col-md-4 col-sm-4 col-6">
+                        <img class="img-fluid rounded-4" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                     </div>
-                    <div class="col-xxl-2 col-md-4 col-sm-6">
-                        <img class="img-fluid rounded" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                    <div class="col-xxl-2 col-md-4 col-sm-4 col-6">
+                        <img class="img-fluid rounded-4" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
                     </div>
                 </div>
             </div>

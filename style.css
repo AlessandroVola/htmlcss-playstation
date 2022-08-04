@@ -1,20 +1,23 @@
+/* generics */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* bg-color */
 .av_bg-color-black {
     background-color: black;
 }
 
-.navbar .navbar-nav li a {
-    color: black;
-}
-
-
 .av-bg-full-img {
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
-    min-height: 600px;
+    min-height: 500px;
     background-position: 50%;
 }
 
@@ -31,4 +34,18 @@ body {
 
 .av-bg-color-lightgrey {
     background-color: #bebcbb;
+}
+
+/* navbar */
+.navbar .navbar-nav li a {
+    color: black;
+}
+
+/* jumbotron */
+#jumbotron {
+    padding-top: 8.5rem;
+}
+
+.jumbotron-content {
+    margin-top: 15rem;
 }
