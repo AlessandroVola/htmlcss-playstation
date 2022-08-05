@@ -62,6 +62,12 @@ body {
     margin: 1rem 0;
 }
 
+
+/* playstation5 */
+#playstation-5 .row .element:hover {
+    border-bottom: 1px solid blue;
+}
+
 /* itTakesTwo */
 #itTakesTwo img {
     width: 50%;
@@ -73,9 +79,9 @@ body {
 }
 
 
-#playstationPlus-content {
+/* #playstationPlus-content {
     padding-top: 5%;
-}
+} */
 
 /* sconti */
 .sconti-content>* {
